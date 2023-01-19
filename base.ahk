@@ -14,7 +14,7 @@ LaunchFocus(exeName, activateDelay, runPath)
 ; Terminal
 LWin & Enter::
 {
-	LaunchFocus("ahk_exe WindowsTerminal.exe", 300, "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.15.2875.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe")
+	LaunchFocus("ahk_exe WindowsTerminal.exe", 300, "wt")
 }
 
 ; Browser
